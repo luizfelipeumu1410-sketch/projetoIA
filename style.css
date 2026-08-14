@@ -1,10 +1,10 @@
 header{
     background-color: rgb(255, 183, 0);
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 main{
-    background-color: rgba(255, 255, 255, 0.834);
+    background-color: rgba(14, 13, 13, 0.834);
     color: rgb(255, 145, 0);
     text-align: center;
 }
