@@ -3,83 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GameStore - Sua Loja de Jogos</title>
+    <title>AudioPulse - Som de Alta Fidelidade</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header class="navbar">
-        <div class="logo">GameStore</div>
-        <nav>
-            <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Catálogo</a></li>
-                <li><a href="#">Promoções</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
+    <header class="header">
+        <div class="logo">Audio<span>Pulse</span></div>
+        <nav class="nav">
+            <a href="#">Início</a>
+            <a href="#produtos">Produtos</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
         </nav>
-        <div class="cart-btn">
-            🛒 Carrinho (<span id="cart-count">0</span>)
+        <div class="cart-icon">
+            🛒 <span class="cart-count">2</span>
         </div>
     </header>
 
     <section class="hero">
-        <div class="hero-content">
-            <h1>Os Melhores Lançamentos</h1>
-            <p>Garanta seus jogos favoritos com os melhores preços do mercado.</p>
-            <a href="#catalog" class="btn-primary">Ver Jogos</a>
+        <div class="hero-text">
+            <h1>Sinta Cada Batida</h1>
+            <p>Descubra nossa linha premium de fones de ouvido e caixas de som com cancelamento de ruído ativado.</p>
+            <a href="#produtos" class="btn-hero">Explorar Coleção</a>
         </div>
     </section>
 
-    <main id="catalog" class="catalog-container">
-        <h2>Lançamentos e Destaques</h2>
-        
-        <div class="game-grid">
-            
-            <div class="game-card">
-                <img src="https://via.placeholder.com/300x180?text=Jogo+1" alt="Capa do Jogo 1">
-                <div class="card-body">
-                    <h3>Cyber Quest 2077</h3>
-                    <p class="genre">Ação / RPG</p>
-                    <div class="price-container">
-                        <span class="price">R$ 249,90</span>
-                        <button class="btn-buy">Comprar</button>
+    <main id="produtos" class="products-section">
+        <h2>Produtos em Destaque</h2>
+        <div class="product-grid">
+
+            <div class="product-card">
+                <div class="image-container">
+                    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80" alt="Fone de Ouvido Premium Wireless">
+                </div>
+                <div class="product-info">
+                    <span class="category">Fones Over-Ear</span>
+                    <h3>Pulse Pro Wireless</h3>
+                    <p class="description">Cancelamento ativo de ruído e bateria com duração de até 30 horas.</p>
+                    <div class="product-footer">
+                        <span class="price">R$ 599,00</span>
+                        <button class="btn-add">Adicionar</button>
                     </div>
                 </div>
             </div>
 
-            <div class="game-card">
-                <img src="https://via.placeholder.com/300x180?text=Jogo+2" alt="Capa do Jogo 2">
-                <div class="card-body">
-                    <h3>Shadow Realms</h3>
-                    <p class="genre">Aventura / Fantasia</p>
-                    <div class="price-container">
-                        <span class="price">R$ 199,99</span>
-                        <button class="btn-buy">Comprar</button>
+            <div class="product-card">
+                <div class="image-container">
+                    <img src="https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=600&q=80" alt="Fone de Ouvido In-Ear">
+                </div>
+                <div class="product-info">
+                    <span class="category">Earbuds</span>
+                    <h3>Pulse Buds Sport</h3>
+                    <p class="description">Resistentes à água e suor, ideais para treinos intensos e corrida.</p>
+                    <div class="product-footer">
+                        <span class="price">R$ 299,90</span>
+                        <button class="btn-add">Adicionar</button>
                     </div>
                 </div>
             </div>
 
-            <div class="game-card">
-                <img src="https://via.placeholder.com/300x180?text=Jogo+3" alt="Capa do Jogo 3">
-                <div class="card-body">
-                    <h3>Speed Rivals</h3>
-                    <p class="genre">Corrida / Esporte</p>
-                    <div class="price-container">
-                        <span class="price">R$ 149,00</span>
-                        <button class="btn-buy">Comprar</button>
+            <div class="product-card">
+                <div class="image-container">
+                    <img src="https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=600&q=80" alt="Caixa de Som Bluetooth">
+                </div>
+                <div class="product-info">
+                    <span class="category">Caixas de Som</span>
+                    <h3>SoundBox Portable</h3>
+                    <p class="description">Som potente em 360 graus com resistência contra água IPX7.</p>
+                    <div class="product-footer">
+                        <span class="price">R$ 449,00</span>
+                        <button class="btn-add">Adicionar</button>
                     </div>
                 </div>
             </div>
 
-            <div class="game-card">
-                <img src="https://via.placeholder.com/300x180?text=Jogo+4" alt="Capa do Jogo 4">
-                <div class="card-body">
-                    <h3>Space Odyssey</h3>
-                    <p class="genre">Estratégia / Sci-Fi</p>
-                    <div class="price-container">
-                        <span class="price">R$ 89,90</span>
-                        <button class="btn-buy">Comprar</button>
+            <div class="product-card">
+                <div class="image-container">
+                    <img src="https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=600&q=80" alt="Headset Gamer">
+                </div>
+                <div class="product-info">
+                    <span class="category">Gaming</span>
+                    <h3>Pulse Gamer Surround 7.1</h3>
+                    <p class="description">Microfone com redução de ruído e iluminação RGB customizável.</p>
+                    <div class="product-footer">
+                        <span class="price">R$ 389,90</span>
+                        <button class="btn-add">Adicionar</button>
                     </div>
                 </div>
             </div>
@@ -87,8 +96,8 @@
         </div>
     </main>
 
-    <footer>
-        <p>&copy; 2026 GameStore. Todos os direitos reservados.</p>
+    <footer class="footer">
+        <p>&copy; 2026 AudioPulse Store. Todos os direitos reservados.</p>
     </footer>
 
 </body>
