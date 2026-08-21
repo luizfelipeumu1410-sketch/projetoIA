@@ -1,136 +1,95 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AluraFlix</title>
-    <title>AluraFlix - Seus Filmes Favoritos</title>
-    <!-- Importação de fonte moderna (Inter) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>GameStore - Sua Loja de Jogos</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header>
-        <h1>AluraFlix</h1>
-        <p>Meu site para filmes</p>
-    <header class="header">
-        <div class="header-container">
-            <h1 class="logo">Alura<span>Flix</span></h1>
-            <p class="subtitle">Meu site para filmes</p>
+
+    <header class="navbar">
+        <div class="logo">GameStore</div>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Catálogo</a></li>
+                <li><a href="#">Promoções</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="cart-btn">
+            🛒 Carrinho (<span id="cart-count">0</span>)
         </div>
     </header>
-    <main>
-        <h2>Interestelar</h2>
-        <p>
-            As reservas naturais da Terra estão chegando ao fim e um grupo
-            de astronautas recebe a missão de verificar possíveis planetas
-            para receberem a população mundial, possibilitando a continuação
-            da espécie. Cooper é chamado para liderar o grupo e aceita a
-            missão sabendo que pode nunca mais ver os filhos. Ao lado de
-            Brand, Jenkins e Doyle, ele seguirá em busca de um novo lar.
-        </p>
-    </main>
-    <div style="width: 100%; display: flex">
-        <div class="conteiner-card">
-            <div class="card">
-                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBwjVpcKrx-BlT45DJ8hoxT7n5ejlSXF6dGsxIwcGW6ONmhki3wzIk-Dd2nmspWkRRE1THNZO-HWxDmRR2_t6L4pS6C2Q67z2LRs6vzi_2YH_fxd27rsw1-E1a15nlriHTYf_zQQTAs32qGUf92QFltT2thvOUA8_Bf9IdAN-Ada4T7HoC9oA8_w/s540/doom-banner2.jpg"
-                    alt="">
-                <h3>Marvel: Doomsday</h3>
-                <a href="filmes/filme001.html" target="_blank" rel="noopener noreferrer">Acesse o Filme</a>
-            </div>
-            <div class="card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgr3cGBVT6StAVH_HAHpWev2fTPsCPLaxu4daFHOVpwrbnH5FND6s2-ujX&s=10"
-                    alt="Capa do Filme">
-                <h3>Matrix</h3>
-                <a href="filmes/filme002.html" target="_blank">Acesse o Filme</a>
-            </div>
-            <div class="card">
-                <img src="https://rollingstone.com.br/wp-content/uploads/2026/04/Michael-Jackson-estreia-na-musica-em-novo-trailer-de-cinebiografia-800x450.jpg"
-                    alt="Capa do Filme">
-                <h3>Michael Jackson</h3>
-                <a href="filmes/filme003.html" target="_blank">Acesse o Filme</a>
 
-    <main class="main-content">
-        <!-- Seção Hero / Destaque principal -->
-        <section class="hero-banner">
-            <div class="hero-text">
-                <h2>Interestelars</h2>
-                <p>
-                    As reservas naturais da Terra estão chegando ao fim e um grupo
-                    de astronautas recebe a missão de verificar possíveis planetas
-                    para receberem a população mundial, possibilitando a continuação
-                    da espécie. Cooper é chamado para liderar o grupo e aceita a
-                    missão sabendo que pode nunca mais ver os filhos. Ao lado de
-                    Brand, Jenkins e Doyle, ele seguirá em busca de um novo lar.
-                </p>
-            </div>
-            <div class="card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmsb6eO3aOS9pimW31uHLg1SIysuP16LXfu8B3_QqzNJeW9lwqAeoca6uakko37hstwcrFcJrJ7EmSkbuIXrfOq9-v2vDLECjv9WLDaw&s"
-                    alt="Capa do Filme">
-                <h3>Perdido em Marte</h3>
-                <a href="filmes/filme004.html" target="_blank">Acesse o Filme</a>
-        </section>
-
-        <!-- Galeria de Filmes -->
-        <section class="catalog">
-            <h3 class="section-title">Catálogo de Filmes</h3>
-            <div class="container-cards">
-                <article class="card">
-                    <div class="card-image-wrapper">
-                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBwjVpcKrx-BlT45DJ8hoxT7n5ejlSXF6dGsxIwcGW6ONmhki3wzIk-Dd2nmspWkRRE1THNZO-HWxDmRR2_t6L4pS6C2Q67z2LRs6vzi_2YH_fxd27rsw1-E1a15nlriHTYf_zQQTAs32qGUf92QFltT2thvOUA8_Bf9IdAN-Ada4T7HoC9oA8_w/s540/doom-banner2.jpg"
-                            alt="Capa do filme Marvel: Doomsday">
-                    </div>
-                    <div class="card-content">
-                        <h3>Marvel: Doomsday</h3>
-                        <a href="filmes/filme001.html" target="_blank" rel="noopener noreferrer" class="btn-watch">Acesse o Filme</a>
-                    </div>
-                </article>
-
-                <article class="card">
-                    <div class="card-image-wrapper">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgr3cGBVT6StAVH_HAHpWev2fTPsCPLaxu4daFHOVpwrbnH5FND6s2-ujX&s=10"
-                            alt="Capa do filme Matrix">
-                    </div>
-                    <div class="card-content">
-                        <h3>Matrix</h3>
-                        <a href="filmes/filme002.html" target="_blank" rel="noopener noreferrer" class="btn-watch">Acesse o Filme</a>
-                    </div>
-                </article>
-
-                <article class="card">
-                    <div class="card-image-wrapper">
-                        <img src="https://rollingstone.com.br/wp-content/uploads/2026/04/Michael-Jackson-estreia-na-musica-em-novo-trailer-de-cinebiografia-800x450.jpg"
-                            alt="Capa da cinebiografia do Michael Jackson">
-                    </div>
-                    <div class="card-content">
-                        <h3>Michael Jackson</h3>
-                        <a href="filmes/filme003.html" target="_blank" rel="noopener noreferrer" class="btn-watch">Acesse o Filme</a>
-                    </div>
-                </article>
-
-                <article class="card">
-                    <div class="card-image-wrapper">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmsb6eO3aOS9pimW31uHLg1SIysuP16LXfu8B3_QqzNJeW9lwqAeoca6uakko37hstwcrFcJrJ7EmSkbuIXrfOq9-v2vDLECjv9WLDaw&s"
-                            alt="Capa do filme Perdido em Marte">
-                    </div>
-                    <div class="card-content">
-                        <h3>Perdido em Marte</h3>
-                        <a href="filmes/filme004.html" target="_blank" rel="noopener noreferrer" class="btn-watch">Acesse o Filme</a>
-                    </div>
-                </article>
-            </div>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Os Melhores Lançamentos</h1>
+            <p>Garanta seus jogos favoritos com os melhores preços do mercado.</p>
+            <a href="#catalog" class="btn-primary">Ver Jogos</a>
         </div>
-    </div>
-        </section>
+    </section>
+
+    <main id="catalog" class="catalog-container">
+        <h2>Lançamentos e Destaques</h2>
+        
+        <div class="game-grid">
+            
+            <div class="game-card">
+                <img src="https://via.placeholder.com/300x180?text=Jogo+1" alt="Capa do Jogo 1">
+                <div class="card-body">
+                    <h3>Cyber Quest 2077</h3>
+                    <p class="genre">Ação / RPG</p>
+                    <div class="price-container">
+                        <span class="price">R$ 249,90</span>
+                        <button class="btn-buy">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <img src="https://via.placeholder.com/300x180?text=Jogo+2" alt="Capa do Jogo 2">
+                <div class="card-body">
+                    <h3>Shadow Realms</h3>
+                    <p class="genre">Aventura / Fantasia</p>
+                    <div class="price-container">
+                        <span class="price">R$ 199,99</span>
+                        <button class="btn-buy">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <img src="https://via.placeholder.com/300x180?text=Jogo+3" alt="Capa do Jogo 3">
+                <div class="card-body">
+                    <h3>Speed Rivals</h3>
+                    <p class="genre">Corrida / Esporte</p>
+                    <div class="price-container">
+                        <span class="price">R$ 149,00</span>
+                        <button class="btn-buy">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <img src="https://via.placeholder.com/300x180?text=Jogo+4" alt="Capa do Jogo 4">
+                <div class="card-body">
+                    <h3>Space Odyssey</h3>
+                    <p class="genre">Estratégia / Sci-Fi</p>
+                    <div class="price-container">
+                        <span class="price">R$ 89,90</span>
+                        <button class="btn-buy">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </main>
 
-    <footer class="footer">
-        <p>&copy; 2026 AluraFlix - Todos os direitos reservados.</p>
+    <footer>
+        <p>&copy; 2026 GameStore. Todos os direitos reservados.</p>
     </footer>
-</body>
 
+</body>
 </html>
